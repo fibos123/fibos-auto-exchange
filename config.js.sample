@@ -1,0 +1,10 @@
+var account = "xxxx-your-account-name";
+var priKey = "xxxx-your-private-key";
+
+module.exports = {
+    "producer-name": account,
+    "producer-priKey": priKey,
+    "permission": "active",
+    "http-end-point": "http://ca-rpc.fibos.io:8870",
+    "chain-id": "6aa7bd33b6b45192465afa3553dedb531acaaff8928cf64b70bd4c5e49b7ec6a"
+} 

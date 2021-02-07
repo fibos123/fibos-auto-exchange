@@ -4,4 +4,4 @@ COPY package.json ./
 
 RUN yarn
 
-CMD [ "yarn", "start" ]
+CMD [ "yarn", "server" ]

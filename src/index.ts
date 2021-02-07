@@ -6,7 +6,7 @@ const main = async () => {
     const balance = await getBalance();
     console.log(balance);
     if (balance > 100) {
-      const res = exchange(balance - 100);
+      const res = await exchange(balance - 100);
       console.log(res);
     }
   } catch (e) {
